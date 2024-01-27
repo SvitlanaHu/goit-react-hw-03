@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+  padding: 0;
+  gap: 20px;
+}

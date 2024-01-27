@@ -1,0 +1,34 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 4px 4px 10px #c6cccced;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: rgb(31, 31, 37);
+  /* max-width: 520px; */
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.str {
+  display: flexbox;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.icon {
+  fill: #524a4d;
+}
+
+.name,
+.number {
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #524a4d;
+}
