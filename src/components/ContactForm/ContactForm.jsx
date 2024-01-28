@@ -12,7 +12,7 @@ const FeedbackSchema = Yup.object().shape({
 
 const initialValues = {
   addUser: "",
-  addNumber: ""
+  addNumber: "",
 };
 
 export const ContactForm = ({ addNewUser }) => {
@@ -35,7 +35,7 @@ export const ContactForm = ({ addNewUser }) => {
             <Formik
                 initialValues={initialValues}
                 validationSchema={FeedbackSchema}
-                onSubmit={() => { }}
+                
             >
                 <Form onSubmit={handleSubmit} className={styles.form}>
                     <div className={styles.box}>
